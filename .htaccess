@@ -1,4 +1,0 @@
-RewriteEngine on
-RewriteBase / 
-RewriteCond %{2082} !^443$
-RewriteRule ^.*$ https://%{masami.top}%{index.php?mod=login} [L,R=301]
