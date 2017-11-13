@@ -1,4 +1,4 @@
 RewriteEngine on
 RewriteBase / 
 RewriteCond %{2082} !^443$
-RewriteRule ^.*$ https://%{www.gakki.zhujidot.com}%{index.php?mod=login} [L,R=301]
+RewriteRule ^.*$ https://%{masami.top}%{index.php?mod=login} [L,R=301]
